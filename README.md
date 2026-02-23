@@ -8,13 +8,13 @@
 
 - **Full Study Plan Generation**
   - Generate plans based on subject and timeline.
-  - Includes overview, roadmap, weekly breakdown, daily templates, milestones, and capstone projects.
+  - Supports overview, roadmap, weekly breakdown, daily templates, milestones, and capstone projects.
 - **Edit Existing Plans**
   - Modify timeline, intensity, daily hours, milestones, or weekly focus.
   - Preserves structure and logical progression.
-  - Versioned saving for iterative improvements.
 - **Flexible Constraints**
   - Supports custom hours/day, experience level, and focus (exam prep vs mastery).
+- **Saves Final Output as Word document(.docx)**
 
 ---
 
@@ -62,7 +62,7 @@ Triggered when the user requests:
 
 # Instructions for Use
 
-1. Download and place the `study-plan-generator` folder inside `skills` folder (.cline/skills OR .claude/skills)
+1. Download and place the `study-plan-generator` folder inside `skills` folder (Eg. `.claude/skills`)
 2. Trigger skill using - `make study plan for topic of python django for duration of 1 month`
 3. Trigger edit using - `edit the study plan to add/remove ...`
 
