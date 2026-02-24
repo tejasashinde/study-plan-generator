@@ -1,6 +1,6 @@
 # Study Plan Generator
 
-**Study Plan Generator** is a agent skill that creates structured, goal-oriented study plans for any subject over a specified time period. It supports both initial plan generation and iterative edits of existing plans, ensuring practical, actionable learning roadmaps.
+**Study Plan Generator** is a AI agent skill that creates structured, goal-oriented study plans for any subject over a specified time period. It supports both initial plan generation and iterative edits of existing plans, ensuring practical, actionable learning roadmaps.
 
 ---
 
@@ -49,7 +49,7 @@ Triggered when the user requests:
 - "Edit the study plan"
 - "Modify the file"
 
-**Workflow:**
+**Workflow for edit:**
 
 1. Load the existing study plan.
 2. Identify requested changes:
@@ -62,10 +62,21 @@ Triggered when the user requests:
 
 # Instructions for Use
 
-1. Download and place the `study-plan-generator` folder inside `skills` folder (Eg. `.claude/skills`)
-2. Trigger skill using - `make study plan for topic of python django for duration of 1 month`
-3. Trigger edit using - `edit the study plan to add/remove ...`
+1. Make sure you have Node.js and npm installed on your system (required for using npx).
 
+2. Install this skill using one of the following methods:
+   - Using the [`Skills CLI`](https://skills.sh/):
+     ```bash
+     npx skills add https://github.com/tejasashinde/study-plan-generator
+     ```
+   - OR manually:
+     - Clone the repository.
+     - Place the `study-plan-generator` folder inside the `skills` directory (e.g., `.claude/skills`).
+
+3. Trigger the skill using:
+   ```bash
+   make study plan for topic of python django for duration of 1 month
+   ```
 
 ## License
 
