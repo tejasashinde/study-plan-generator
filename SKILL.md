@@ -1,6 +1,8 @@
 ---
 name: study-plan-generator
 description: "Use when user asks to 'create study plan', 'make a learning roadmap', 'edit my study plan', 'modify existing study plan', or similar. Generates structured, goal-oriented study plans for any subject over a specified time period and allows iterative editing of previously generated files."
+license: "Apache License 2.0"
+version: 1.0
 ---
 
 # Study Plan Generator
